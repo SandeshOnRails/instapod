@@ -1,0 +1,22 @@
+{
+  "name": "InstaPod",
+  "version": "0.1.0",
+  "summary": "A short description of InstaPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/basnetsandesh450@gmail.com/InstaPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "basnetsandesh450@gmail.com": "basnetsandesh450@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/basnetsandesh450@gmail.com/InstaPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "InstaPod/Classes/**/*"
+}

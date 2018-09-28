@@ -1,0 +1,6 @@
+framework module InstaPod {
+  umbrella header "InstaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

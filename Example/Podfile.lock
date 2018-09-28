@@ -1,0 +1,16 @@
+PODS:
+  - InstaPod (0.1.0)
+
+DEPENDENCIES:
+  - InstaPod (from `../`)
+
+EXTERNAL SOURCES:
+  InstaPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InstaPod: 3dac45fdf8c9430ac1510fc71381aa81b8c7c6a9
+
+PODFILE CHECKSUM: 5f0ba23aedccdf50a381209211dfe678551ff1fc
+
+COCOAPODS: 1.5.3
