@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37884AC00B4BA44709D2DFC0627A9636 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13141B1B8FB55B387BFDD09C7B58C3D /* ReplaceMe.swift */; };
+		022ECF1A215EEE61001D3721 /* NoParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022ECF19215EEE61001D3721 /* NoParse.swift */; };
 		5EF74C45602F9460AA170B952561F3BF /* Pods-InstaPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 973334B3D10CEBE7F5D850FFBD863081 /* Pods-InstaPod_Tests-dummy.m */; };
 		71AE73FB7B51D151FCBA55D706476E78 /* InstaPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F75D8870084CAF2B63250ABA9699E389 /* InstaPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		759D3B7C9871B3416C44BF5F82D8F6D4 /* InstaPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 834933A569BB45C9D0F97B8DBB5B7282 /* InstaPod-dummy.m */; };
@@ -27,26 +27,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022ECF19215EEE61001D3721 /* NoParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoParse.swift; sourceTree = "<group>"; };
 		0F8E3C29FDDE0E824A827A83FEE28087 /* InstaPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InstaPod.modulemap; sourceTree = "<group>"; };
 		1B227A35F14CAAF60435F8FA87B823CA /* Pods-InstaPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InstaPod_Tests.modulemap"; sourceTree = "<group>"; };
 		1EED56A2FB1BE5BD79FBB217F774E80F /* InstaPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InstaPod.xcconfig; sourceTree = "<group>"; };
-		29C504D2C9A517D159DE14E379FE8FB8 /* InstaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InstaPod.framework; path = InstaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C504D2C9A517D159DE14E379FE8FB8 /* InstaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InstaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B94E91CC23D900BF26D265E6AB74408 /* Pods-InstaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		39C039913DCAAA1293C2C142A619D865 /* Pods-InstaPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		46586B985F5A357F935DE234A0905CCA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7230DC075F564C7380B767ADACAB4482 /* Pods-InstaPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstaPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		834933A569BB45C9D0F97B8DBB5B7282 /* InstaPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InstaPod-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		972CFAF6A3E047EB4F1243901BC21EA6 /* Pods_InstaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InstaPod_Tests.framework; path = "Pods-InstaPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		972CFAF6A3E047EB4F1243901BC21EA6 /* Pods_InstaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		973334B3D10CEBE7F5D850FFBD863081 /* Pods-InstaPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstaPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		A31DB9EAEB1F4126A272581FAA57049E /* InstaPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstaPod-prefix.pch"; sourceTree = "<group>"; };
-		AC8AC40D143AE798AC2DB7016ADDFFF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B3D814EF9DFE2E41D5B08C52E9936897 /* InstaPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = InstaPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC8AC40D143AE798AC2DB7016ADDFFF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B3D814EF9DFE2E41D5B08C52E9936897 /* InstaPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = InstaPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C846EF04673DE7CF445A72C3A24922FC /* Pods-InstaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CCFCD35DD9CDA8E635945B21EECAC267 /* Pods-InstaPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D94957BAFB46FF18D962F79D9BC125C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E13141B1B8FB55B387BFDD09C7B58C3D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = InstaPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D94957BAFB46FF18D962F79D9BC125C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E5CFE4474D64AF21B6D57E5A496CA699 /* Pods-InstaPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstaPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F44DA2CF5681DA83BF1A7A65464F778B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F75D8870084CAF2B63250ABA9699E389 /* InstaPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InstaPod-umbrella.h"; sourceTree = "<group>"; };
@@ -98,9 +98,9 @@
 		7AAF4E097E60D06DBBDCC47851DBF4D5 /* InstaPod */ = {
 			isa = PBXGroup;
 			children = (
-				E13141B1B8FB55B387BFDD09C7B58C3D /* ReplaceMe.swift */,
 				F8547B5C38247A13B4DD44D062AF6B2A /* Pod */,
 				4CF39DD45F4D8B0DC144E22B392B8483 /* Support Files */,
+				022ECF19215EEE61001D3721 /* NoParse.swift */,
 			);
 			name = InstaPod;
 			path = ../..;
@@ -245,6 +245,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					1C95FCDEB6A21BB1CF0F2D71A1B4434E = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -286,8 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022ECF1A215EEE61001D3721 /* NoParse.swift in Sources */,
 				759D3B7C9871B3416C44BF5F82D8F6D4 /* InstaPod-dummy.m in Sources */,
-				37884AC00B4BA44709D2DFC0627A9636 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EED56A2FB1BE5BD79FBB217F774E80F /* InstaPod.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -335,8 +341,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -349,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1EED56A2FB1BE5BD79FBB217F774E80F /* InstaPod.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -463,8 +469,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
