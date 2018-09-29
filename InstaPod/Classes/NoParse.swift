@@ -1,10 +1,3 @@
-//
-//  NoParse.swift
-//  InstaPod
-//
-//  Created by Sandesh Basnet on 9/28/18.
-//
-
 import Foundation
 
 class NoParse {
@@ -50,8 +43,8 @@ class NoParse {
                 
                 if  responseMessage[0]["didRegister"] != nil  {
                     
-                          isRegistered = responseMessage[0]["didRegister"] as! Bool
-                          serverResponse = responseMessage[1]["message"]! as! String
+                    isRegistered = responseMessage[0]["didRegister"] as! Bool
+                    serverResponse = responseMessage[1]["message"]! as! String
                 }
                 
             }
@@ -62,7 +55,7 @@ class NoParse {
         //return tuple of response
         
         return (isRegistered, serverResponse)
-
+        
         
     }
     
@@ -76,7 +69,7 @@ class NoParse {
         
         let url = URL(string: "https://parkistan.herokuapp.com/users")!
         
-        let request = URLRequest(url:url, cachePolicy: .reloadIgnoringCacheData, timeoutInterval: 10)
+        var request = URLRequest(url:url, cachePolicy: .reloadIgnoringCacheData, timeoutInterval: 10)
         
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         
@@ -120,3 +113,4 @@ class NoParse {
     
     
 }
+
