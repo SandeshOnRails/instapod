@@ -18,13 +18,24 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'InstaPod'
-pod install
+compod install
 
 ```
 
 ## Author
 
-basnetsandesh450@gmail.com, basnetsandesh450@gmail.com
+Sandesh Basnet, basnetsandesh450@gmail.com
+
+# Use
+
+```ruby
+let noparse = new NoParse() //init
+noparse.registerUser(username, email, password) -> (didRegister: Bool, message: String)
+noparse.loginUser(username, password) -> (didLogin: Bool, message: String)
+
+
+```
+
 
 ## License
 
