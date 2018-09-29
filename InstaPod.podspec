@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sandesh Basnet' => 'sbasnet@mail.sfsu.edu' }
-  s.source           = { :git => 'https://github.com/SandeshOnRails/instapod.git', :tag => '0.1.0', :commit => "5e6e6391f04c2b29d32e59f8e6225a6474dc0eba" }
+  s.source           = { :git => 'https://github.com/SandeshOnRails/instapod.git', :tag => '0.1.0', :commit => "c640c46431ec15f09d4419ae3f83c49255695919" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

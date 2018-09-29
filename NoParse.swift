@@ -67,16 +67,25 @@ class NoParse {
     }
     
     
-    func loginUser (_ username: String, _ password: String, _ email: String!) -> (didRegister: Bool, message: String) {
+    func loginUser (_ username: String, _ password: String) -> (didRegister: Bool, message: String) {
         
         var isLoggedIn = false;
         var serverResponse = "";
         
         // URL for making GET request to the heroku server
         
-        let url = URL(string: "https://parkistan.herokuapp.com/users")!
+        let url = URL(string: "https://parkistan.herokuapp.com/login")!
         
-        let request = URLRequest(url:url, cachePolicy: .reloadIgnoringCacheData, timeoutInterval: 10)
+        var request = URLRequest(url:url, cachePolicy: .reloadIgnoringCacheData, timeoutInterval: 10)
+        
+        // define HTTP POST method
+        request.httpMethod = "POST"
+        
+        // send data as httpBody encoded in utf format
+        
+        
+        request.httpBody = "username=\(username)&password=\(password)".data(using: .utf8)
+        
         
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         
