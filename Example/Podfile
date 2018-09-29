@@ -1,6 +1,6 @@
 use_frameworks!
 target 'InstaPod_Tests' do
-  pod 'InstaPod', :path => '../'
+  pod 'InstaPod', :path => '.'
   
   
 end
